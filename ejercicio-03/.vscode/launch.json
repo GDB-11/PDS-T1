@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ConsultaClientesApplication",
+            "request": "launch",
+            "mainClass": "com.pe.cibertec.consulta_clientes.ConsultaClientesApplication"
+        },
+        {
+            "type": "java",
+            "name": "Consulta de clientes",
+            "request": "launch",
+            "mainClass": "com.pe.cibertec.consulta_clientes.ConsultaClientesApplication",
+            "projectName": "consulta-clientes",
+            "console": "integratedTerminal"
+        }
+    ]
+}
