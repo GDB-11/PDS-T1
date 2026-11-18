@@ -72,7 +72,7 @@ class ClienteServiceTest {
 
     @ParameterizedTest
     @NullAndEmptySource
-    @ValueSource(strings = {"   "})
+    @ValueSource(strings = {"   ", "", "\t", "\n"})
     void consultarPorId_valorEnBlanco_lanzaDatosRequeridos(String id) {
         ClienteException ex = assertThrows(ClienteException.class, () -> clienteService.consultarPorId(id));
 
